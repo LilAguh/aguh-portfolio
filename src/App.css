@@ -1,0 +1,13 @@
+h1{
+  /* color: #D2A6FB; */
+  color: #D2D3D7;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: Grotesc;
+  text-align: center;
+}
+h1::selection {
+  background: #D2A6FB;
+  color: #2A2A2A;
+  text-shadow: 4px 4px #D2D3D7;
+}
