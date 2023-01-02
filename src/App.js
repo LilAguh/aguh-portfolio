@@ -1,9 +1,14 @@
+import Nav from './components/nav/Nav';
+import About from './views/About/About';
+import ContactMe from './views/ContactMe/ContactMe'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>fullstack MERN developer</h1>
+      <Nav />
+      <About />
+      <ContactMe />
     </div>
   );
 }
