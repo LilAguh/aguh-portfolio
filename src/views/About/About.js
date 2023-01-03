@@ -1,6 +1,6 @@
 import "./About.css"
 
-export default function About() {
+export default function About({ title, subtitle, dark, id }) {
     return (
         <div className="About">
             <div className="AboutTitle">
