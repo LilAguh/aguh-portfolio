@@ -2,6 +2,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import "./Nav.css"
 
 export default function Nav() {
+
     return (
         <header>
             <div className="HeaderName">
