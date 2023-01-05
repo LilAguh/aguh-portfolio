@@ -1,8 +1,8 @@
 import "./About.css"
 
-export default function About({ title, subtitle, dark, id }) {
+export default function About(id) {
     return (
-        <div className="About">
+        <div className="About" id={id}>
             <div className="AboutTitle">
                 <h2 className="AboutTitleClass">FRONTEND</h2>
                 <h2 className="AboutTitleClass">DEVELOPER</h2>
