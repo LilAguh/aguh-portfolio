@@ -3,13 +3,13 @@
 }
 .App{
   /* padding: 10px 50px; */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.291),rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.291)),url("./assets/images/fondo.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.291),rgba(0, 0, 0, 0.291), rgba(0, 0, 0, 0.291)),url("./assets/images/fondo.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 .nav {
-  background-color: var(--off-white);
+  background-color: rgba(0, 0, 0, 0.291);
   position: sticky;
   top: 0px;
   width: 100%;
