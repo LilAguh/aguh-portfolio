@@ -17,14 +17,7 @@ export default class Navbar extends Component {
           </div>
           <ul className="navContainer">
             <li className="navLink">
-              <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
+              <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
                 About
               </Link>
             </li>
