@@ -12,9 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <About
-          id="about"
-        />
+        <About />
         <Section
           title="Section 2"
           subtitle={dummyText}
