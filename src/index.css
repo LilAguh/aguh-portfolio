@@ -22,6 +22,14 @@
   font-family: "Migra";
   src: url("./assets/fonts/Migra.otf");
 }
+@font-face {
+  font-family: "Tradi";
+  src: url("./assets/fonts/Tradi.ttf");
+}
+@font-face {
+  font-family: "Aurora";
+  src: url("./assets/fonts/Aura.ttf");
+}
 *{
   margin: 0;
   padding: 0;
