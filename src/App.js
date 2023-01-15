@@ -5,6 +5,7 @@ import Nav from "./Components/nav/Nav";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import About from "./views/About/About";
+import Welcome from "./views/Welcome/Welcome";
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <Welcome />
         <About />
         <Section
           title="Section 2"
