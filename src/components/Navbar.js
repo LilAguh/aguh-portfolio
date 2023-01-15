@@ -12,12 +12,12 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <div className="HeaderName">
-            <h3 className="by">by </h3>
-            <h3 className="Name">AGUH OCHOA</h3>
+            {/* <h3 className="by">by </h3> */}
+            <h3 className="Name">PORTFOLIO</h3>
           </div>
           <ul className="navContainer">
             <li className="navLink">
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} onSetActive={this.handleSetActive}>
                 About
               </Link>
             </li>
