@@ -1,0 +1,47 @@
+.Angel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transform-style: preserve-3d;
+    top: -30px
+}
+.AngelImg{
+    position: absolute;
+    width: 350px;
+    filter: drop-shadow(0 0 0.90rem black);
+    animation: AngelMove 15s linear infinite;
+}
+.AngelCircle{
+    transform-style: preserve-3d;
+    animation: CircleAnimation 10s linear infinite;
+}
+.AngelCircle spam{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    color: black;
+    font-family: Grotesc;
+    font-size: 4em;
+    text-transform: uppercase;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    padding: 5px 10px;
+    text-shadow: 4px 2px 5px #D2A6FB;
+    transform: rotateY(calc(var(--i) * calc(360deg / 19))) translateZ(200px);
+}
+
+@keyframes AngelMove{
+    from { 	transform: rotate(0deg) translateX(15px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(15px) rotate(-360deg); }
+}
+
+@keyframes CircleAnimation{
+    0%{
+        transform: rotateY(360deg) rotateX(10deg);
+    }
+    100%{
+        transform: rotateY(0deg) rotateX(10deg);
+    }
+}
