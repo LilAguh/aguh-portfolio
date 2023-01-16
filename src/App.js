@@ -6,6 +6,7 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import About from "./views/About/About";
 import Welcome from "./views/Welcome/Welcome";
+import Works from "./views/Works/Works";
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Navbar />
         <Welcome />
         <About />
+        <Works />
         <Section
           title="Section 2"
           subtitle={dummyText}
