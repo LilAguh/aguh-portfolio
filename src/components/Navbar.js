@@ -24,7 +24,7 @@ export default class Navbar extends Component {
             <li className="navLink">
               <Link
                 activeClass="active"
-                to="section2"
+                to="works"
                 spy={true}
                 smooth={true}
                 offset={-70}
