@@ -1,33 +1,63 @@
 
-.AboutTitle{
-    width: 40%;
+.Welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.WelcomeTitle{
+    width: 60%;
     height: 100%;
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: flex-end;
 }
-.AboutInformation{
-    width: 60%;
+.WelcomeInformation{
+    position: relative;
+    width: 40%;
     height: 100%;
     /* border: 1px solid orange; */
     display: flex;
     /* flex-direction: column;
     justify-content: end; */
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    /* top: 30%; */
+
     
 }
-.AboutTitleClass{
+.WelcomeTitleClass{
     color: white;
     font-family: Grotesc;
-    font-size: 120px;
+    font-size: 8vw;
     font-weight: 100;
 }
-.AboutInformationText{
-    color: white;
-    font-size: 36px;
-    font-family: YingHei;
-    text-align: end;
-    text-transform: uppercase;
+
+@media (max-width: 1024px){
+    .Welcome{
+        /* position: relative; */
+        flex-direction: column;
+        }
+    .WelcomeInformation{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        top: 20%;
+    }
+    .WelcomeTitle{
+        width: 100%;
+        justify-content: end;
+    align-items: center;
+    }
+    .WelcomeTitleClass{
+        color: white;
+        font-family: Grotesc;
+        font-size: 14vmax;
+        font-weight: 100;
+    }
 }
