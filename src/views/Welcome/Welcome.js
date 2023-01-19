@@ -4,11 +4,11 @@ import Angel from "../../Components/angel/Angel"
 export default function Welcome() {
     return (
         <div className="Welcome">
-            <div className="AboutTitle">
-                <h2 className="AboutTitleClass">AGUSTIN</h2>
-                <h2 className="AboutTitleClass">OCHOA</h2>
+            <div className="WelcomeTitle">
+                <h2 className="WelcomeTitleClass">AGUSTIN</h2>
+                <h2 className="WelcomeTitleClass">OCHOA</h2>
             </div>
-            <div className="AboutInformation">
+            <div className="WelcomeInformation">
                 <Angel />
             </div>
         </div>
